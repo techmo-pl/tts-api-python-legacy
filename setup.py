@@ -83,4 +83,7 @@ replace_imports_to_relatives(
     ]
 )
 
-setuptools.setup()
+setuptools.setup( name='techmo-tts-api',
+ version='1.0.0',
+ packages=setuptools.find_packages()
+ )
