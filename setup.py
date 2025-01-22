@@ -85,8 +85,8 @@ replace_imports_to_relatives(
 
 
 install_requires=[
-  'grpcio>=1.48.2,<1.63',
-  'protobuf>=4.21.0,<5'
+  'grpcio==1.38.1',
+  'protobuf>=3.19.5,<3.20'
 ]
 
 setuptools.setup( name='techmo-tts-api',

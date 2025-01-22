@@ -2,8 +2,8 @@
 
 ### Changed
 
- - grpcio-tools package minimal version to 1.48.2
- - protobuf package minimal version to 4.21.0
+ - grpcio-tools package version to 1.38.1
+ - protobuf package version to 3.19.5
  - setuptools minimal version to 59
  - python minimal version downgraded to 3.6.13
  - move required dependencies to setup.py file
