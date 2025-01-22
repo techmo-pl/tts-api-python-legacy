@@ -84,6 +84,6 @@ replace_imports_to_relatives(
 )
 
 setuptools.setup( name='techmo-tts-api',
- version='1.0.0-python36+support.001',
+ version='1.0.0-python36.001',
  packages=setuptools.find_packages()
  )
