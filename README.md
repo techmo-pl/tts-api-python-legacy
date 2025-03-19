@@ -20,7 +20,6 @@ Example:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --require-virtualenv --upgrade pip
-pip install -r requirements.txt
 pip install --require-virtualenv .
 ```
 

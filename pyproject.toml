@@ -1,5 +1,5 @@
 [build-system]
-requires = ["grpcio-tools>=1.48.2,<1.63", "setuptools>=59"]
+requires = ["grpcio-tools==1.38.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -9,7 +9,7 @@ dynamic = ["version"]
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [{ name = "Techmo sp. z o.o", email = "kontakt@techmo.pl" }]
 requires-python = ">=3.6.13"
-dependencies = ["grpcio>=1.48.2,<1.63", "protobuf>=4.21.0,<5"]
+dependencies = ["grpcio==1.38.1", "protobuf==3.19.6"]
 
 [project.urls]
 repository = "https://github.com/techmo-pl/tts-api-python"
