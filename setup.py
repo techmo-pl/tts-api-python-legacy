@@ -85,7 +85,7 @@ replace_imports_to_relatives(
 
 
 install_requires=[
-  'grpcio==1.38.1',
+  'grpcio==1.48.2',
   'protobuf==3.19.6'
 ]
 
